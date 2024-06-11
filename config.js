@@ -61,7 +61,7 @@ export const MANGA_SUMMARY = [
 // Navbar
 export const logo = <img src={`${LOGO_URL}`} alt="Logo" className="h-[75px] w-[160px] mr-5 md:ml-0 ml-4 md:pb-2 md:my-0 my-1" />
 
-export const APP_NAME = 'Frieren: Beyond Journey’s End';
+export const APP_NAME = "Frieren: Beyond Journey’s End";
 export const NavbarName = "Frieren: Beyond Journey’s End";
 
 export const navLinks = [
