@@ -25,7 +25,7 @@ export const BEHIND_COVER_IMG = "https://images.thedirect.com/media/article_full
 
 
 
-export const APP_DESCRIPTION = `Read "${MANGA_NAME}" manga online at "${DOMAIN}". Enjoy high-quality scans, latest chapters, and connect with fans in our vibrant community.`;
+export const APP_DESCRIPTION = `Read "${MANGA_NAME}" manga online at ${DOMAIN}. Enjoy high-quality scans, latest chapters, and connect with fans in our vibrant community.`;
 
 export const DISQUS_SHORTNAME = "my-cms-7";
 
