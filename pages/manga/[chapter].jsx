@@ -28,9 +28,6 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
 
     const DESCRIPTION = `Enjoy reading ${MANGA_NAME} chapter ${chapterNumber} online at ${DOMAIN}. Frieren, an elf adventurer who reunites with her aging companions after a long quest, reflecting on their adventures and the passage of time. The series blends fantasy, introspection, and themes of friendship and mortality.`
     const URL = params.chapter;
-    // const currentDate = new Date();
-    // const dateModified = new Date(currentDate.getTime() - (2 * 24 * 60 * 60 * 1000)).toISOString();
-    // const datePublished = new Date(currentDate.getTime() - (7 * 24 * 60 * 60 * 1000)).toISOString();
 
 
     const schema =
@@ -57,16 +54,14 @@ export default function Chapter({ chapterNumber, imageUrls, totalChapters, param
                 "url": `${LOGO_URL}`
             }
         },
-        // "datePublished": datePublished,
-        // "dateModified": dateModified
     }
 
     const head = () => (
         <Head>
-            <title>{`${MANGA_NAME}: Beyond Journey's End Chapter ${chapterNumber}`}</title>
+            <title>{`${MANGA_NAME} Chapter ${chapterNumber}`}</title>
             <meta name="description" content={DESCRIPTION} />
             <link rel="canonical" href={`${DOMAIN}/${URL}`} />
-            <meta property="og:title" content={`${MANGA_NAME}: Beyond Journey's End Chapter ${chapterNumber}`} />
+            <meta property="og:title" content={`${MANGA_NAME} Chapter ${chapterNumber}`} />
             <meta property="og:description" content={DESCRIPTION} />
             <meta property="og:type" content="webiste" />
             <meta name="robots" content="follow, index, noarchive, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
