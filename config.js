@@ -65,6 +65,7 @@ export const APP_NAME = "Frieren: Beyond Journey’s End";
 export const NavbarName = "Frieren: Beyond Journey’s End";
 
 export const navLinks = [
+    { text: 'Vinland Saga Chapters', href: `https://www.vinlandsagamanga.in.net` },
     { text: 'Home', href: `${DOMAIN}` },
     { text: 'DMCA', href: `${DOMAIN}/dmca` },
     { text: 'Terms & Conditions', href: `${DOMAIN}/terms-and-conditions` },
